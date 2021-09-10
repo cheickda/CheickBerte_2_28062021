@@ -274,7 +274,7 @@ nav a
 
 .BlocHébergement
 {
-    width: 875px;
+    width: 60%;
     height: auto;
     background-color: #F2F2F2;
     margin-right: 40px;
@@ -284,7 +284,7 @@ nav a
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex: 2;
+    
     
 }
 
@@ -319,7 +319,7 @@ nav a
 {
     background: url("./hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") center/cover;
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -327,7 +327,7 @@ nav a
 {
     background: url("./hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") center/cover;
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -335,7 +335,7 @@ nav a
 {
     background: url("./hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") center/cover;
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -343,7 +343,7 @@ nav a
 {
     background: url("./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") center/cover;
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -351,7 +351,7 @@ nav a
 {
     background: url("./hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") center/cover;
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -375,6 +375,8 @@ nav a
 {
     width: 90%;
     padding-left: 15px;
+    
+  
 }
 
 .Afficherplus
@@ -386,12 +388,15 @@ nav a
 
 .BlocPopulaire
 {
-    width: 422px;
-    height: 648px;
-    background-color: #F2F2F2;
+   
+    width: 40%;
+    height: 650px;
+    background-color: rgb(242, 242, 242);
     border-radius: 10px;
-    padding-left: 40px;
     padding-right: 40px;
+    padding-left: 40px;
+    
+    margin-top:  30px;   
     
 }
     
@@ -440,12 +445,14 @@ nav a
 
 .CubePopulaire
 {
+    
     display: flex;
     align-items: center;
     background-color: white;
     height: auto;
     padding: 5px;
     border-radius: 20px;
+    width: 100%;
 }
 
 
@@ -483,7 +490,7 @@ nav a
 .activites
 {
     margin-top: 50px;
-    margin-bottom: 50px;
+    
     
     
 }
@@ -666,10 +673,6 @@ nav a
         margin-left: 35%;
     }
 
-    .CubeDétailHébergement
-    {
-        min-height: 150px;
-    }
 
     .BlocHébergement
     {
@@ -737,30 +740,12 @@ nav a
         padding-right: 0;
         margin-top: 50px;
         padding: 5%;
+        background-color: white;
+
         
-    }
+    } 
     
-}  
-
-@media screen and (max-width: 768px)
-{
-    .MenuNavLiensMenuNav
-    {
-        width: 90%;
-    }
-
-    .BlocHébergement
-    {
-        height: auto;
-    }
-
-    .BlocHébergement1
-    {
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-
-    .BlocHébergement2
+    .BlocHébergement1, .BlocHébergement2
     {
         flex-direction: column;
         margin-bottom: 0;
@@ -769,52 +754,72 @@ nav a
     .CubeHébergement
     {
         width: 100%;
-        margin: 20px;
+        margin-bottom: 20px;
     }
-
     .CubeDétailHébergement
     {
-        min-height: auto;
+        height: 100px;
     }
 
-    .bloc_activites
-    {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .cubeactivites
+    .ImgHébergement1, .ImgHébergement2, .ImgHébergement3, .ImgHébergement4, .ImgHébergement5, .ImgHébergement6
     {
         width: 100%;
-        margin-bottom: 50px;
+        height: 180px;
     }
 
-    .cubeactivites2356
+    .MenuNavLiensMenuNav
     {
-        width: 100%;
-        height: auto;
-        margin-bottom: 50px;
-
+        width: 90%;
     }
-    .bloc_activites2
-    {
-       width: 100%;
-       height: auto;
-      
-    }
+}
 
-    .bloc_activites1
-    {
-        width: 100%;
-        margin-bottom: 50px;
-    }
+@media all and (max-width: 768px)
+{ 
+  .activites
+  {
+    width: 100%;
+    height: auto;
+   
+  }
 
-    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
-    {
-        height: 200px;
-    }
+  .bloc_activites
+  {      
+     flex-direction: column;
+     height: auto;
+  }
 
-    .Footer
+  .cubeactivites
+  {
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .cubeactivites2356
+  {
+      margin-bottom: 50px;
+      height: auto;
+  }
+
+  .bloc_activites1
+  {
+      width: 100%;
+      height: auto;
+  }
+
+  .bloc_activites2
+  {
+      width: 100%;
+      height: auto;
+  }
+
+  .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
+  {
+      height: 200px;
+  }
+
+
+
+
+   .Footer
     {
         flex-direction: column;
         align-items: flex-start;
@@ -824,7 +829,7 @@ nav a
 
     .TailleBlocFooter3
     {
-        margin-right: 0;
+        margin-right: 0px;
     }
     .TailleBlocFooter1
     {
@@ -833,7 +838,7 @@ nav a
 }
     
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 615px)
 {
     .LiensHébergementActivité
     {
@@ -906,8 +911,8 @@ nav a
    
    
 }
-     
-     
+
+  
      
          
      
