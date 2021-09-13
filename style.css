@@ -50,9 +50,14 @@ body
     align-items: center;
     border-top: 1px solid transparent;
 }
-.LienNavActivités:hover, .LienNavHébergement:hover, .LienNavSinscrire:hover
+.LienNavActivités:hover, .LienNavHébergement:hover
 {
     border-top: 1px solid #0065fc;
+}
+
+.ColorLien1:visited, .ColorLien2:visited
+{
+    color: black;
 }
 
 .LienNavSinscrire
@@ -62,8 +67,10 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid transparent;
+    border: 1px solid transparent;
     font-weight: bold;
+    color: #0065fc;
+    background-color: white;
 }
 
 .ColorLien1
@@ -73,7 +80,7 @@ body
 
 .ColorLien2
 {
-     color:black
+     color: blue;
 }
 
 nav a
@@ -165,7 +172,7 @@ nav a
 
 .Filtres
 {
-    display: flex;
+  
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -179,6 +186,7 @@ nav a
 .MargeTitre
 {
     margin-right: 20px;
+    
 }
 
 .FiltreTexteIcone
@@ -287,6 +295,10 @@ nav a
     
     
 }
+.titreHébergement
+{
+    margin-left:20px;
+}
 
 .BlocHébergement1
 {
@@ -382,6 +394,7 @@ nav a
 .Afficherplus
 {
     font-weight: bold;
+    margin-left: 40px;
 }
 
 /*  Les plus populaires */
@@ -630,6 +643,7 @@ nav a
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .TailleBlocFooter
@@ -686,6 +700,94 @@ nav a
     }  
 }
 
+@media all and (min-width: 769px) and  (max-width: 1024px)
+{
+   
+   
+    .activites
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;   
+    }
+  
+
+   
+
+    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
+    {
+        width: 90%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bloc_activites1
+    {
+        width: 200%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 5px;
+        
+    }
+
+    .cubeactivites 
+    {
+        width: 100%;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .cubeactivites2356
+    {
+        width: 100%;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 175px;
+    }
+
+    .bloc_activites2 
+    {
+        width: 200%;
+       flex-direction: row;
+        justify-content: space-around;
+        margin-right: 5px;
+        
+    }
+
+    .hauteurtitre 
+    {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        width: 95%;
+    }
+
+    .bloc_activites
+    {
+        height: 300px;
+        background-color: chartreuse;
+    }
+
+   
+
+
+}
+
 
 @media screen and (max-width: 991px)
 {  
@@ -727,15 +829,20 @@ nav a
 
     .BlocPopulaire
     {
-        width: 90%;
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
         padding: 5%;
     }
+   /* .CubePopulaire, .CubePopulaire1
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }*/
 
     .BlocHébergement
     {
-        width: 90%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 0;
         margin-top: 50px;
@@ -749,12 +856,15 @@ nav a
     {
         flex-direction: column;
         margin-bottom: 0;
+        margin-left: 20px;
     }
 
     .CubeHébergement
     {
         width: 100%;
         margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .CubeDétailHébergement
     {
@@ -792,6 +902,8 @@ nav a
   {
       width: 100%;
       margin-bottom: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
   }
   .cubeactivites2356
   {
@@ -803,6 +915,8 @@ nav a
   {
       width: 100%;
       height: auto;
+      margin-right: 20px;
+      margin-left: 20px;
   }
 
   .bloc_activites2
