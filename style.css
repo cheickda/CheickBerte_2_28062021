@@ -1,7 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-   
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -465,8 +466,9 @@ nav a
     height: auto;
     padding: 5px;
     border-radius: 20px;
-    width: 100%;
-}
+    width: 90%;
+    margin-left: 20px;
+} 
 
 
 
@@ -487,10 +489,11 @@ nav a
     align-items: center;
     background-color: white;
     height: auto;
-    width: 100%;
+    width: 90%;
     padding: 5px;
     border-radius: 20px;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .CubePopulaire:hover, .CubePopulaire1:hover
@@ -503,17 +506,32 @@ nav a
 .activites
 {
     margin-top: 50px;
-    
-    
-    
+   
 }
+
+.tab1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+}
+
+.tab2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+    
+
 .bloc_activites
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 
    
@@ -575,7 +593,7 @@ nav a
 
 .cubeactivites
 {
-    width: 23%;
+    width: 46%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     display: flex;
@@ -602,11 +620,12 @@ nav a
 }
 .bloc_activites1
 {
-    width: 23%;
+    width: 46%;
     height:600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;      
+    justify-content: space-between;
+    padding-left: 20px;      
 }
 
 .imgactivite2:hover, .imgactivite3:hover, .imgactivite5:hover, .imgactivite6:hover 
@@ -622,18 +641,14 @@ nav a
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-
-
-
-
-
 .bloc_activites2
 {
-    width: 23%;
+    width: 46%;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 20px;
 
 }
 .Footer
@@ -700,96 +715,10 @@ nav a
     }  
 }
 
-@media all and (min-width: 769px) and  (max-width: 1024px)
-{
-   
-   
-    .activites
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;   
-    }
-  
-
-   
-
-    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
-    {
-        width: 90%;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px 15px 0 0;
-    }
-
-    .bloc_activites1
-    {
-        width: 200%;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-right: 5px;
-        
-    }
-
-    .cubeactivites 
-    {
-        width: 100%;
-        height: 250px;
-        border-radius: 15px;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center
-    }
-
-    .cubeactivites2356
-    {
-        width: 100%;
-        height: 250px;
-        border-radius: 15px;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 175px;
-    }
-
-    .bloc_activites2 
-    {
-        width: 200%;
-       flex-direction: row;
-        justify-content: space-around;
-        margin-right: 5px;
-        
-    }
-
-    .hauteurtitre 
-    {
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 5%;
-        width: 95%;
-    }
-
-    .bloc_activites
-    {
-        height: 300px;
-        background-color: chartreuse;
-    }
-
-   
 
 
-}
 
-
-@media screen and (max-width: 991px)
+@media screen and (max-width: 1024px)
 {  
       
     #Filtres
@@ -881,7 +810,103 @@ nav a
     {
         width: 90%;
     }
+
+    
+    .activites
+    {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .bloc_activites
+    {
+        flex-direction: column;
+    
+    }
+
+    .tab1 
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+    }
+
+    .cubeactivites 
+    {
+        width: 50%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .hauteurtitre {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        width: 95%;
+    }
+
+    .bloc_activites1 
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cubeactivites2356 
+    {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        position: relative; 
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+
+    .tab2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .bloc_activites2 
+    {
+        width: 100%;
+       height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
+    {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+       border-radius: 15px 15px 0 0;
+    }
 }
+    
+
+  
+
+  
+    
+    
+
+
+
 
 @media all and (max-width: 768px)
 { 
@@ -892,11 +917,11 @@ nav a
    
   }
 
-  .bloc_activites
+  /*.bloc_activites
   {      
      flex-direction: column;
      height: auto;
-  }
+  }*/
 
   .cubeactivites
   {
@@ -917,17 +942,31 @@ nav a
       height: auto;
       margin-right: 20px;
       margin-left: 20px;
+      flex-direction: column;
   }
 
   .bloc_activites2
   {
       width: 100%;
       height: auto;
+      margin-right: 20px;
+      margin-left: 20px;
+      flex-direction: column;
+
   }
 
   .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
   {
       height: 200px;
+  }
+
+  .tab1, .tab2
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
   }
 
 
