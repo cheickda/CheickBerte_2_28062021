@@ -409,9 +409,6 @@ nav a
     height: 650px;
     background-color: rgb(242, 242, 242);
     border-radius: 10px;
-  
-    margin-left: 20px;
-    
     margin-top:  30px;   
     
 }
@@ -1084,6 +1081,8 @@ nav a
         display: none;
     }
 
+
+    
     .BlocHébergement
     {
         background-color: white;
@@ -1111,6 +1110,8 @@ nav a
     {
         flex-direction: column;
     }
+
+   
     .bloc_activites1, .bloc_activites2
     {
        flex-direction: column;
@@ -1127,6 +1128,7 @@ nav a
     .cubeactivites
     {
         width: 90%;
+        height: auto;
     }
     .ResponsiveMobile
     {
