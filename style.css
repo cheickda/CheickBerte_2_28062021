@@ -283,12 +283,12 @@ nav a
 .BlocHébergement
 {
     width: 60%;
-    height: auto;
+    
     background-color: #F2F2F2;
     margin-right: 20px;
     border-radius: 10px;
-   /* padding-right: 40px;
-    padding-left: 40px;*/
+   padding-right: 20px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -297,9 +297,7 @@ nav a
 }
 .titreHébergement
 {
-    padding-left: 40px;
-    display: inline-block;
-    width: 100%;
+    padding-left: 30px;
 }
 
 .BlocHébergement1
@@ -387,12 +385,13 @@ nav a
 
 .CubeDétailHébergement
 {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-left: 15px;
     
   
 }
+
 
 .Afficherplus
 {
