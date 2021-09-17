@@ -1,8 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 0;
+  margin: auto;
 }
 
 
@@ -286,10 +285,10 @@ nav a
     width: 60%;
     height: auto;
     background-color: #F2F2F2;
-    margin-right: 40px;
+    margin-right: 20px;
     border-radius: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
+   /* padding-right: 40px;
+    padding-left: 40px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -298,7 +297,9 @@ nav a
 }
 .titreHébergement
 {
-    margin-left:20px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 100%;
 }
 
 .BlocHébergement1
@@ -387,6 +388,7 @@ nav a
 .CubeDétailHébergement
 {
     width: 90%;
+    height: auto;
     padding-left: 15px;
     
   
@@ -407,8 +409,8 @@ nav a
     height: 650px;
     background-color: rgb(242, 242, 242);
     border-radius: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
+  
+    margin-left: 20px;
     
     margin-top:  30px;   
     
@@ -420,6 +422,7 @@ nav a
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
 }
 
 .ImgPopulaire1
@@ -507,6 +510,11 @@ nav a
 {
     margin-top: 50px;
    
+}
+
+.TitreBlocActivite
+{
+    padding-left: 20px;
 }
 
 .tab1
@@ -797,7 +805,7 @@ nav a
     }
     .CubeDétailHébergement
     {
-        height: 100px;
+        height: auto;
     }
 
     .ImgHébergement1, .ImgHébergement2, .ImgHébergement3, .ImgHébergement4, .ImgHébergement5, .ImgHébergement6
@@ -846,9 +854,9 @@ nav a
     }
 
     .hauteurtitre {
-        height: 70px;
+        height: auto;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         padding-left: 5%;
         width: 95%;
@@ -1001,6 +1009,7 @@ nav a
         align-items: flex-start;
         height: auto;
         padding-left: 20px;
+        margin-top: 20px;
     }
 
     .TailleBlocFooter3
@@ -1105,6 +1114,14 @@ nav a
     .bloc_activites1, .bloc_activites2
     {
        flex-direction: column;
+    }
+    .bloc_activites1
+    {
+        padding-left: 5px;
+    }
+    .bloc_activites2
+    {
+        padding-right: 5px;
     }
 
     .cubeactivites
