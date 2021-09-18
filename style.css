@@ -663,6 +663,7 @@ nav a
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    width: 100%;
 }
 
 .TailleBlocFooter
@@ -1105,6 +1106,12 @@ nav a
         width: 90%;
     }
 
+    .CubeDétailPopulaire
+    {
+        padding-right: 20px;
+        margin-right: auto;
+    }
+
     .tab1, .tab2
     {
         flex-direction: column;
@@ -1122,6 +1129,11 @@ nav a
     .bloc_activites2
     {
         padding-right: 5px;
+    }
+
+    .bloc_activites
+    {
+        width: 100%;
     }
 
     .cubeactivites
