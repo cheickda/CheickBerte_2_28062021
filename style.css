@@ -297,7 +297,7 @@ nav a
 }
 .titreHébergement
 {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .BlocHébergement1
@@ -760,12 +760,7 @@ nav a
         padding-right: 0;
         padding: 5%;
     }
-   /* .CubePopulaire, .CubePopulaire1
-    {
-        margin-right: 20px;
-        margin-left: 20px;
-    }*/
-
+   
     .BlocHébergement
     {
         width: 100%;
@@ -936,11 +931,13 @@ nav a
 
 @media all and (max-width: 768px)
 { 
-  .activites
-  {
-    width: 100%;
-    height: auto;
-  }
+  
+   
+    .activites
+    {
+        width: 100%;
+        height: auto;
+    }
     
   .cubeactivites
   {
@@ -1054,6 +1051,7 @@ nav a
     .BarreRechercheIntégrale
     {
         width: auto;
+        margin-left: 5px;
         
     }
 
@@ -1062,6 +1060,7 @@ nav a
         width: 50px;
         border-radius: 15px;
     }
+
 
     .destop
     {
@@ -1073,11 +1072,23 @@ nav a
         display: none;
     }
 
+    .Filtres
+    {
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
 
     
     .BlocHébergement
     {
         background-color: white;
+        margin: auto;
+    }
+
+    .titreHébergement
+    {
+        padding-left: 40px;
     }
 
     .BlocHébergement1, .BlocHébergement2
@@ -1087,6 +1098,11 @@ nav a
     .CubeHébergement
     {
         width: 90%;
+    }
+
+    .BlocPopulaire
+    {
+        margin: auto;
     }
     .tabpopulaire
     {
@@ -1104,13 +1120,15 @@ nav a
         margin-right: auto;
     }
 
-    .tab1, .tab2
+     .tab2
     {
         flex-direction: column;
+        margin-top: 0;
     }
     .tab1
     {
         padding-left: 20px;
+        flex-direction: column;
     }
 
    
@@ -1118,10 +1136,17 @@ nav a
     {
        flex-direction: column;
     }
+
+    .TitreBlocActivite
+    {
+        padding-left: 40px;
+    }
+
     .bloc_activites1
     {
         padding-left: 20px;
     }
+
     .bloc_activites2
     {
         padding-right: 20px;
@@ -1141,6 +1166,12 @@ nav a
         padding-left: 20px;
     }
 
+
+    .Footer
+    {
+        width: 100%;
+        padding: 20px;
+    }
    
     .ResponsiveMobile
     {
