@@ -1125,12 +1125,13 @@ nav a
     .bloc_activites2
     {
         padding-right: 20px;
+        margin-left: 0;
     }
 
     .bloc_activites
     {
         width: 100%;
-        margin-left: 0;
+      
     }
 
     .cubeactivites
