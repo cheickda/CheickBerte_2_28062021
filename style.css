@@ -1150,6 +1150,13 @@ nav a
        flex-direction: column;
     }
 
+    
+    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
+    {
+      height: 160px;
+      width: 100%;
+    }
+
     .TitreBlocActivite
     {
         padding-left: 40px;
