@@ -757,7 +757,7 @@ nav a
 
     .BlocPopulaire
     {
-        width: 100%;
+        width: 95%;
         padding-left: 0;
         padding-right: 0;
         padding: 5%;
@@ -765,8 +765,8 @@ nav a
    
     .BlocHébergement
     {
-        width: 100%;
-        padding-left: 5px;
+        width: 95%;
+        padding-left: 0;
         padding-right: 0;
         margin-top: 50px;
         padding: 5%;
@@ -1016,6 +1016,16 @@ nav a
 
 @media screen and (max-width: 700px)
 {
+    
+   .center
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   }
+    
+    
     .LiensHébergementActivité
     {
         order: 1;
@@ -1025,9 +1035,11 @@ nav a
 
     .LiensMenuNav
     {
-        width: 100%;
+        width: 90%;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 10px;
     }
     
     .LienNavHébergement, .LienNavActivités
@@ -1077,8 +1089,13 @@ nav a
 
     .Filtres
     {
-        margin-left: 5px;
+      padding-left: 20px;
         margin-bottom: 0;
+    }
+
+    .Info
+    {
+        padding-left: 20px;
     }
 
 
@@ -1144,6 +1161,11 @@ nav a
         flex-direction: column;
     }
 
+    .activites
+    {
+        width: 95%;
+        padding: 5%;
+    }
    
     .bloc_activites1, .bloc_activites2
     {
@@ -1176,7 +1198,7 @@ nav a
     .bloc_activites
     {
         width: 100%;
-        padding:20px;
+       
       
     }
 
@@ -1198,19 +1220,12 @@ nav a
    
     .ResponsiveMobile
     {
-        padding-left: 5px;
+        padding-left: 20px;
     }
     
 
    
   
-   .center
-   {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-   }
    
 }
 
