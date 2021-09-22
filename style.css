@@ -268,6 +268,11 @@ nav a
     margin-right: 13px;
 }
 
+.center
+
+{
+    margin-left: 10px;
+}
 
 /* Hébergements */
 
@@ -283,7 +288,8 @@ nav a
 .BlocHébergement
 {
     width: 60%;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    margin-left: 20px;
     
     background-color: #F2F2F2;
     margin-right: 20px;
@@ -293,6 +299,7 @@ nav a
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
     
     
 }
@@ -409,7 +416,8 @@ nav a
     height: 650px;
     background-color: rgb(242, 242, 242);
     border-radius: 10px;
-    margin-top:  30px;   
+    margin-top:  40px;
+    margin-right: 20px;   
     
 }
     
@@ -420,6 +428,7 @@ nav a
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
+    width: 90%;
 }
 
 .ImgPopulaire1
@@ -506,6 +515,7 @@ nav a
 .activites
 {
     margin-top: 50px;
+    padding: 20px;
    
 }
 
@@ -528,6 +538,7 @@ nav a
     width: 100%;
     height: auto;
     display: flex;
+    margin-right: 20px;
 }
     
 
@@ -538,6 +549,7 @@ nav a
     align-items: center;
     width: 100%;
     height: auto;
+    margin-left: 20px;
 }
 
    
