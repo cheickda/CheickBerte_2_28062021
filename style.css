@@ -296,6 +296,7 @@ nav a
     border-radius: 10px;
    padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -405,6 +406,7 @@ nav a
 {
     font-weight: bold;
     margin-left: 40px;
+   
 }
 
 /*  Les plus populaires */
@@ -417,7 +419,8 @@ nav a
     background-color: rgb(242, 242, 242);
     border-radius: 10px;
     margin-top:  40px;
-    margin-right: 20px;   
+    margin-right: 20px; 
+    padding-bottom: 20px;  
     
 }
     
