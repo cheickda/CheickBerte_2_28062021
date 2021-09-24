@@ -1081,7 +1081,7 @@ nav a
     .BarreRechercheIntégrale
     {
         width: auto;
-        margin-left: 5px;
+       
         
     }
 
@@ -1228,6 +1228,7 @@ nav a
     .bloc_activites
     {
         width: 100%;
+        margin-left: 0;
        
       
     }
