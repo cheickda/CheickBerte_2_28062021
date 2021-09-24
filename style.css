@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -708,16 +708,12 @@ nav a
  /*Responsive*/
 
 
-/*@media screen and (max-width: 1199px)
-{
-  
-   
-}*/
 
 
 
 
-@media screen  and (max-width: 1024px)
+
+@media screen   and (max-width: 1024px)
 {  
     .LiensHébergementActivité
     {
@@ -780,11 +776,11 @@ nav a
    
     .BlocHébergement
     {
-        width: 95%;
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
         margin-top: 50px;
-        padding: 5%;
+        
         background-color: white;
         justify-content: center;
         align-items: stretch;
@@ -795,6 +791,7 @@ nav a
     .BlocHébergement1, .BlocHébergement2
     {
         flex-direction: row;
+        width: 100%;
         margin-bottom: 0;
         margin-left: 20px;
     }
@@ -922,6 +919,7 @@ nav a
     .BlocPopulaire
     {
     height: auto;
+    width: 100%;
     }
 
 
@@ -1286,10 +1284,10 @@ nav a
         align-items: flex-start;
     }
    
-    body
+   /* body
     {
         margin:  auto;
-    }
+    }*/
    
 }
 
