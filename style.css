@@ -1264,13 +1264,13 @@ nav a
         justify-content: center;
         align-items: flex-start;
     }
-    body
-    {
-        margin: auto
-    }
-
    
-  
+    .page
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
    
 }
 
