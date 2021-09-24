@@ -737,8 +737,8 @@ nav a
       
     #Filtres
     {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
 
     .BlocEconomique
@@ -755,7 +755,7 @@ nav a
         justify-content: space-around;
         align-items: flex-start;
         
-       flex-direction: column;
+       flex-direction: row;
         
     }
 
@@ -914,6 +914,8 @@ nav a
     {
     width: 100%;
     display: flex;
+    align-items: center;
+    padding-left: 20px;
    
     }
 
@@ -1116,6 +1118,22 @@ nav a
         margin-top: 20px;
     }
 
+    #Filtres
+    {
+        flex-direction: column;
+    }
+
+    .BlocEconomique
+    {
+        flex-direction: row;
+
+    }
+    .BlocRomantique
+    {
+        flex-direction: column;
+        margin-right: auto;
+    }
+
     .Info
     {
         padding-left: 20px;
@@ -1163,6 +1181,7 @@ nav a
     {
         width: 100%;
         flex-direction: column;
+       
     }
     .CubePopulaire, .CubePopulaire1
     {
@@ -1265,6 +1284,10 @@ nav a
         align-items: flex-start;
     }
    
+    body
+    {
+        margin:  auto;
+    }
    
 }
 
