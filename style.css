@@ -708,9 +708,17 @@ nav a
  /*Responsive*/
 
 
-@media screen and (max-width: 1199px)
+/*@media screen and (max-width: 1199px)
 {
   
+   
+}*/
+
+
+
+
+@media screen  and (max-width: 1024px)
+{  
     .LiensHébergementActivité
     {
         margin-left: 35%;
@@ -726,15 +734,7 @@ nav a
     {
         min-height: auto;
         padding: 20px;
-    }  
-}
-
-
-
-
-@media screen  and (max-width: 1024px)
-{  
-      
+    }   
     #Filtres
     {
         flex-direction: row;
@@ -1146,6 +1146,7 @@ nav a
         background-color: white;
         margin-right: 0;
         margin-top: 20px;
+        width: 100%;
        
     }
     .BlocPopulaire
@@ -1218,8 +1219,8 @@ nav a
 
     .activites
     {
-        width: 95%;
-        padding: 5%;
+        width: 100%;
+        
        
     }
    
