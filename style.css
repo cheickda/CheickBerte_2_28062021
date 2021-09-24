@@ -786,6 +786,8 @@ nav a
         margin-top: 50px;
         padding: 5%;
         background-color: white;
+        justify-content: center;
+        align-items: stretch;
 
         
     } 
@@ -831,6 +833,8 @@ nav a
     .bloc_activites
     {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     
     }
 
