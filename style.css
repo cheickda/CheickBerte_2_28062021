@@ -1131,6 +1131,7 @@ nav a
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin-left: 20px;
     }
    
     .titreHébergement
@@ -1259,7 +1260,10 @@ nav a
         justify-content: center;
         align-items: flex-start;
     }
-    
+    body
+    {
+        margin: auto
+    }
 
    
   
