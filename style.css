@@ -1,1326 +1,1089 @@
-body
-{
-    font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-
 /* Logo et barre de navigation */
 
-
-.MenuNav
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    
-   
-    
-
+.MenuNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
 }
 
-.LiensMenuNav
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    
-    
+.LiensMenuNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
-.LienNavHébergement
-{
-    width: 120px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid transparent;
+.LienNavHébergement {
+  width: 120px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid transparent;
 }
 
-.LienNavActivités
-{ 
-    width: 120px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid transparent;
+.LienNavActivités {
+  width: 120px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid transparent;
 }
-.LienNavActivités:hover, .LienNavHébergement:hover
-{
-    border-top: 1px solid #0065fc;
-}
-
-.ColorLien1:visited, .ColorLien2:visited
-{
-    color: black;
+.LienNavActivités:hover,
+.LienNavHébergement:hover {
+  border-top: 1px solid #0065fc;
 }
 
-.LienNavSinscrire
-{
-    width: 120px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid transparent;
-    font-weight: bold;
-    color: #0065fc;
-    background-color: white;
+.ColorLien1:visited,
+.ColorLien2:visited {
+  color: black;
 }
 
-.ColorLien1
-{
-    color: #0065fc;
+.LienNavSinscrire {
+  width: 120px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: #0065fc;
+  background-color: white;
 }
 
-.ColorLien2
-{
-     color: blue;
+.ColorLien1 {
+  color: #0065fc;
 }
 
-nav a
-{
-    text-decoration: none;
-    
+.ColorLien2 {
+  color: blue;
 }
 
-.logo
-{
-    width: 100px;
-    height: 40px;
+nav a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
 }
 /* Modification pour adapter en responsive*/
-.LiensHébergementActivité
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 60%;
+.LiensHébergementActivité {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60%;
 }
-
 
 /* Barre de recherche et Slogan d'introduction */
 
-.SloganIntro
-{
-    font-weight: bold;
-    font-size: 1.1em;
+.SloganIntro {
+  font-weight: bold;
+  font-size: 1.1em;
 }
 /*header*/
-.destop
-{
-    display: none;
+.destop {
+  display: none;
 }
 
-.BarreRechercheIntégrale
-{
-    width: 420px;
-    display: flex;
-    border-radius: 10px;
+.BarreRechercheIntégrale {
+  width: 420px;
+  display: flex;
+  border-radius: 10px;
 }
 
-.IconeBarreRecherche
-{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px 0 0 10px;
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.IconeBarreRecherche {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px 0 0 10px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.BarreRecherche
-{
-    height: 50px;
-    width: 230px;
-    font-weight: bold;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    border: 0.5px solid #F2F2F2; 
-    padding-left: 20px;
-    font-size: 18px; 
+.BarreRecherche {
+  height: 50px;
+  width: 230px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #f2f2f2;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
-.BoutonRechercher
-{
-    background-color : #0065fc;
-    height: 50px;
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 10px 10px 0;
-    color: white;
-    cursor: pointer;
+.BoutonRechercher {
+  background-color: #0065fc;
+  height: 50px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  cursor: pointer;
 }
 
-.BoutonRechercher:hover
-{
-    color: #0065fc;
-    background-color: #f2f2f2;
+.BoutonRechercher:hover {
+  color: #0065fc;
+  background-color: #f2f2f2;
 }
 
 /* Filtres de recherche */
 
-.Filtres
-{
-  
-    margin-top: 60px;
-    margin-bottom: 60px;
+.Filtres {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-#Filtres
-{
-    display: flex;
-    align-items: center;
+#Filtres {
+  display: flex;
+  align-items: center;
 }
 
-.MargeTitre
-{
-    margin-right: 20px;
-    
+.MargeTitre {
+  margin-right: 20px;
 }
 
-.FiltreTexteIcone
-{
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.FiltreTexteIcone {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.FiltreIcone
-{
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color: #0065fc;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -2px;
+.FiltreIcone {
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2px;
 }
 
-.FiltreTexteIcone:hover > .FiltreTexte
-{
-    color: #0065fc;
+.FiltreTexteIcone:hover > .FiltreTexte {
+  color: #0065fc;
 }
 
-.FiltreTexteIcone:hover > .FiltreIcone
-{
-    color: white;
-    background-color: #0065fc ;
+.FiltreTexteIcone:hover > .FiltreIcone {
+  color: white;
+  background-color: #0065fc;
 }
 
-.FiltreTexte
-{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 0 25px 25px 0;
-    font-weight: bold;
+.FiltreTexte {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0 25px 25px 0;
+  font-weight: bold;
 }
 
-.BlocEconomique
-{
-    display: flex;
+.BlocEconomique {
+  display: flex;
 }
 
-.BlocRomantique
-{
-    display: flex;
+.BlocRomantique {
+  display: flex;
 }
 
 /* Icone Info et nombre de logements disponibles */
 
-.Info
-{
-    display: flex;
-    align-items: center;
+.Info {
+  display: flex;
+  align-items: center;
 }
 
-.IconeInfo
-{
-    color: #0065fc;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 13px;
+.IconeInfo {
+  color: #0065fc;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 13px;
 }
 
-.center
-
-{
-    margin-left: 10px;
+.center {
+  margin-left: 10px;
 }
 
 /* Hébergements */
 
-.BlocHébergement_Populaire
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    
+.BlocHébergement_Populaire {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.BlocHébergement
-{
-    width: 60%;
-    /*margin-bottom: 30px;*/
-    margin-left: 20px;
-    
-    background-color: #F2F2F2;
-    margin-right: 20px;
-    border-radius: 10px;
-   padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.BlocHébergement {
+  width: 60%;
+  /*margin-bottom: 30px;*/
+  margin-left: 20px;
 
-    
-    
+  background-color: #f2f2f2;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.titreHébergement
-{
-    padding-left: 10px;
+.titreHébergement {
+  padding-left: 10px;
 }
 
-.BlocHébergement1
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+.BlocHébergement1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.BlocHébergement2
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+.BlocHébergement2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-
-
-
-.ImgHébergement1
-{
-    background: url("./hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement1 {
+  background: url("./hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.ImgHébergement2
-{
-    background: url("./hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement2 {
+  background: url("./hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.ImgHébergement3
-{
-    background: url("./hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement3 {
+  background: url("./hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.ImgHébergement4
-{
-    background: url("./hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement4 {
+  background: url("./hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.ImgHébergement5
-{
-    background: url("./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement5 {
+  background: url("./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.ImgHébergement6
-{
-    background: url("./hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") center/cover;
-    width: 100%;
-    height: 100px;
-    border-radius: 15px 15px 0 0;
+.ImgHébergement6 {
+  background: url("./hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
+    center/cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
 }
 
-.CubeHébergement
-{
-    width: 30%;
-    height: auto;
-    background-color: white;
-    padding: 1%;
-    border-radius: 15px;
-   box-shadow: 5px 5px 5px 1px #f2f2f2;
+.CubeHébergement {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-.CubeHébergement:hover
-{
-    cursor:pointer;
-    transform: scale(1.1);
+.CubeHébergement:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
-.CubeDétailHébergement
-{
-    width: 100%;
-    height: auto;
-    padding-left: 15px;
-    
-  
+.CubeDétailHébergement {
+  width: 100%;
+  height: auto;
 }
 
-
-.Afficherplus
-{
-    font-weight: bold;
-    margin-left: 40px;
-    width: 100%;
-   
+.Afficherplus {
+  font-weight: bold;
+  margin-left: 40px;
+  width: 100%;
 }
 
 /*  Les plus populaires */
 
-.BlocPopulaire
-{
-   
-    width: 40%;
-    height: 650px;
-    background-color: rgb(242, 242, 242);
-    border-radius: 10px;
-    margin-top:  40px;
-    margin-right: 20px; 
-    padding-bottom: 20px;  
-    
-}
-    
-
-.TitreBlocPopulaire
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    width: 90%;
+.BlocPopulaire {
+  width: 40%;
+  height: 650px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-bottom: 20px;
 }
 
-.ImgPopulaire1
-{
-    background: url("./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg") center/cover;
-    width: 35%;
-    height: 145px;
-    border-radius: 15px 0 0 15px;
+.TitreBlocPopulaire {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  width: 90%;
 }
 
-
-.ImgPopulaire2
-{
-    background: url("./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg") center/cover;
-    width: 35%;
-    height: 145px;
-    border-radius: 15px 0 0 15px;
+.ImgPopulaire1 {
+  background: url("./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg")
+    center/cover;
+  width: 35%;
+  height: 145px;
+  border-radius: 15px 0 0 15px;
 }
 
-.ImgPopulaire3
-{
-    background: url("./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg") center/cover;
-    width: 35%;
-    height: 145px;
-    border-radius: 15px 0 0 15px;
+.ImgPopulaire2 {
+  background: url("./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg")
+    center/cover;
+  width: 35%;
+  height: 145px;
+  border-radius: 15px 0 0 15px;
+}
+
+.ImgPopulaire3 {
+  background: url("./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg")
+    center/cover;
+  width: 35%;
+  height: 145px;
+  border-radius: 15px 0 0 15px;
 }
 
 /* Couleur des Etoiles des images*/
-.color
-{
-    color: #0065fc;
+.color {
+  color: #0065fc;
 }
-.color1
-{
-    color: #F2F2F2;
+.color1 {
+  color: #f2f2f2;
 }
 
-.CubePopulaire
-{
-    
-    display: flex;
-    align-items: center;
-    background-color: white;
-    height: auto;
-    padding: 5px;
-    border-radius: 20px;
-    width: 90%;
-    margin-left: 20px;
-} 
-
-
-
-.CubeDétailPopulaire
-{
-    padding-left: 20px;
-    padding-right: 5px;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+.CubePopulaire {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  padding: 5px;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 20px;
 }
 
-
-.CubePopulaire1
-{
-    display: flex;
-    
-    align-items: center;
-    background-color: white;
-    height: auto;
-    width: 90%;
-    padding: 5px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    margin-left: 20px;
+.CubeDétailPopulaire {
+  padding-left: 20px;
+  padding-right: 5px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
 }
 
-.CubePopulaire:hover, .CubePopulaire1:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
+.CubePopulaire1 {
+  display: flex;
+
+  align-items: center;
+  background-color: white;
+  height: auto;
+  width: 90%;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.CubePopulaire:hover,
+.CubePopulaire1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /* Activités*/
 
-.activites
-{
-    margin-top: 50px;
+.activites {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.TitreBlocActivite {
+  padding-left: 20px;
+}
+
+.tab1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-right: 20px;
+}
+
+.tab2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-right: 20px;
+}
+
+.bloc_activites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.imgactivite1 {
+  background-image: url("./activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  width: 100%;
+  height: 530px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgactivite2 {
+  background-image: url("./activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.imgactivite3 {
+  background-image: url("./activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.imgactivite4 {
+  background-image: url("./activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  width: 100%;
+  height: 530px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.imgactivite5 {
+  background-image: url("./activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.imgactivite6 {
+  background-image: url("./activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.cubeactivites {
+  width: 46%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cubeactivites:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hauteurtitre {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+.bloc_activites1,
+.bloc_activites2 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.imgactivite2:hover,
+.imgactivite3:hover,
+.imgactivite5:hover,
+.imgactivite6:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cubeactivites2356 {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.Footer {
+  background-color: #f2f2f2;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.TailleBlocFooter {
+  height: 150px;
+}
+.TailleBlocFooter1 {
+  height: 150px;
+  margin-left: 50px;
+}
+
+.TailleBlocFooter3 {
+  height: 150px;
+  margin-right: 50px;
+}
+.liensfooter {
+  color: black;
+  text-decoration: none;
+}
+
+.liensfooter1 {
+  height: 30px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1024px) {
+  .LiensHébergementActivité {
+    margin-left: 35%;
+  }
+
+  .BlocHébergement {
+    min-height: auto;
     padding: 20px;
-   
-}
-
-.TitreBlocActivite
-{
-    padding-left: 20px;
-}
-
-.tab1
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-right: 20px;
-   
-}
-
-.tab2
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-right: 20px;
-}
-    
-
-.bloc_activites
-{
-    display: flex;
-    justify-content: space-between;
+  }
+  .BlocPopulaire {
+    min-height: auto;
+    padding: 20px;
+  }
+  #Filtres {
+    flex-direction: row;
     align-items: center;
+  }
+
+  .BlocEconomique {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .BlocRomantique {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    flex-direction: row;
+  }
+
+  .FiltreTexteIcone {
+    margin-bottom: 20px;
+  }
+
+  #Hébergements {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .BlocPopulaire {
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 5%;
+  }
+
+  .BlocHébergement {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 50px;
+
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .BlocHébergement1,
+  .BlocHébergement2 {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .CubeHébergement {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .CubeDétailHébergement {
+    height: auto;
+  }
+
+  .ImgHébergement1,
+  .ImgHébergement2,
+  .ImgHébergement3,
+  .ImgHébergement4,
+  .ImgHébergement5,
+  .ImgHébergement6 {
+    width: 100%;
+    height: 180px;
+  }
+
+  .MenuNavLiensMenuNav {
+    width: 90%;
+  }
+
+  .activites {
     width: 100%;
     height: auto;
-    margin-left: 20px;
-}
+  }
 
-   
+  .bloc_activites {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.imgactivite1
-{
-    background-image: url("./activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  .tab1 {
     width: 100%;
-    height: 530px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
+    height: auto;
+    display: flex;
+  }
 
-.imgactivite2
-{
-    background-image: url("./activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    width: 100%;
-    height:250px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-.imgactivite3
-{
-    background-image: url("./activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-.imgactivite4
-{
-    background-image: url("./activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    width: 100%;
-    height: 530px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-.imgactivite5
-{
-    background-image: url("./activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    width: 100%;
-    height:200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-.imgactivite6
-{
-    background-image: url("./activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    width: 100%;
-    height:200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-
-.cubeactivites
-{
-    width: 46%;
+  .cubeactivites {
+    width: 50%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    margin-right: 20px;
+  }
 
-.cubeactivites:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.hauteurtitre
-{
-    height: 70px;
+  .hauteurtitre {
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 5%;
     width: 95%;
-
-}
-.bloc_activites1, .bloc_activites2
-{
-    width: 50%;
-    height:600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 20px;      
-}
-
-.imgactivite2:hover, .imgactivite3:hover, .imgactivite5:hover, .imgactivite6:hover 
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.cubeactivites2356
-{
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-
-.Footer
-{
-    background-color: #F2F2F2;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.TailleBlocFooter
-{
-    height: 150px;
-    
-}
-.TailleBlocFooter1
-{
-    height: 150px;
-    margin-left: 50px;
-}
-
-.TailleBlocFooter3
-{
-    height: 150px;
-    margin-right: 50px;
-}
-.liensfooter
-{
-    color: black;
-    text-decoration: none;
-}
-
-.liensfooter1
-{
-    height: 30px;
-
-}
-
-    
-
- /*Responsive*/
-
-
-
-
-
-
-
-@media screen   and (max-width: 1024px)
-{  
-    .LiensHébergementActivité
-    {
-        margin-left: 35%;
-    }
-
-
-    .BlocHébergement
-    {
-        min-height: auto;
-     padding: 20px;
-    }
-    .BlocPopulaire
-    {
-        min-height: auto;
-        padding: 20px;
-    }   
-    #Filtres
-    {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .BlocEconomique
-    {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-
-    .BlocRomantique
-    {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        
-       flex-direction: row;
-        
-    }
-
-    .FiltreTexteIcone
-    {
-        margin-bottom: 20px;
-    }
-    
-    #Hébergements
-    {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .BlocPopulaire
-    {
-        width: 95%;
-        padding-left: 0;
-        padding-right: 0;
-        padding: 5%;
-    }
-   
-    .BlocHébergement
-    {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 50px;
-        
-        background-color: white;
-        justify-content: center;
-        align-items: stretch;
-
-        
-    } 
-    
-    .BlocHébergement1, .BlocHébergement2
-    {
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 0;
-        margin-left: 20px;
-    }
-
-    .CubeHébergement
-    {
-        width: 100%;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .CubeDétailHébergement
-    {
-        height: auto;
-    }
-
-    .ImgHébergement1, .ImgHébergement2, .ImgHébergement3, .ImgHébergement4, .ImgHébergement5, .ImgHébergement6
-    {
-        width: 100%;
-        height: 180px;
-    }
-
-    .MenuNavLiensMenuNav
-    {
-        width: 90%;
-    }
-
-    
-    .activites
-    {
-        width: 100%;
-        height: auto;
-    
-    }
-
-    .bloc_activites
-    {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-
-    .tab1 
-    {
-        width: 100%;
-        height: auto;
-        display: flex;
-        
-    }
-
-    .cubeactivites 
-    {
-        width: 50%;
-        border-radius: 15px;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    .hauteurtitre {
-        height: auto;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding-left: 5%;
-        width: 95%;
-    }
-
-    .bloc_activites1 
-    {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .cubeactivites2356 
-    {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
-        position: relative; 
-        margin-left: 10px;
-        margin-right: 25px;
-    }
-
-    .tab2 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        margin-top: 50px;
-    }
-
-    .bloc_activites2 
-    {
-        width: 100%;
-       height: auto;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
-    {
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-       border-radius: 15px 15px 0 0;
-    }
-
-    .tabpopulaire
-    {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-   
-    }
-
-    .BlocPopulaire
-    {
-    height: auto;
-    width: 100%;
-    }
-
-
-    .CubePopulaire1, .CubePopulaire  
-    {
-        width: 100%;
-        flex-direction: column;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-  
-    .ImgPopulaire1, .ImgPopulaire2, .ImgPopulaire3
-    {
-
-        width: 100%;
-        height: 180px;
-        border-radius: 15px 15px 0 0;
-    }
-}
-
-  
-
-  
-    
-    
-
-
-
-
-@media all and (max-width: 768px)
-{ 
-  
-   
-    .activites
-    {
-        width: 100%;
-        height: auto;
-       /* margin: auto;*/
-    }
-    
-  .cubeactivites
-  {
-    width: 50%;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
-  .cubeactivites2356
-  {
-    margin-bottom: 50px;
+
+  .bloc_activites1 {
+    width: 100%;
     height: auto;
-    width: 90%;
-    
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cubeactivites2356 {
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     position: relative;
     margin-left: 10px;
     margin-right: 25px;
-
   }
 
-  .bloc_activites1
-  {
-      width: 100%;
-      height: auto;
-      margin-right: 20px;
-     
-      flex-direction: row;
+  .tab2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
   }
 
-  .bloc_activites2
-  {
-      width: 100%;
-      height: auto;
-      margin-right: 20px;
-      margin-left: 20px;
-      flex-direction: row;
-
+  .bloc_activites2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
   }
 
-  .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
-  {
-      height: 200px;
-      width: 100%;
+  .imgactivite1,
+  .imgactivite2,
+  .imgactivite3,
+  .imgactivite4,
+  .imgactivite5,
+  .imgactivite6 {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
   }
 
- 
+  .tabpopulaire {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
 
- 
+  .BlocPopulaire {
+    height: auto;
+    width: 100%;
+  }
 
+  .CubePopulaire1,
+  .CubePopulaire {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 
-
-   .Footer
-    {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding-left: 20px;
-        margin-top: 20px;
-    }
-
-    .TailleBlocFooter3
-    {
-        margin-right: 0px;
-    }
-    .TailleBlocFooter1
-    {
-        margin-left: 0;
-    }
+  .ImgPopulaire1,
+  .ImgPopulaire2,
+  .ImgPopulaire3 {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+  }
 }
-    
 
-@media screen and (max-width: 700px)
-{
-    
-   .center
-   {
+@media all and (max-width: 768px) {
+  .activites {
+    width: 100%;
+    height: auto;
+    /* margin: auto;*/
+  }
+
+  .cubeactivites {
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .cubeactivites2356 {
+    margin-bottom: 50px;
+    height: auto;
+    width: 90%;
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 25px;
+  }
+
+  .bloc_activites1 {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+
+    flex-direction: row;
+  }
+
+  .bloc_activites2 {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: row;
+  }
+
+  .imgactivite1,
+  .imgactivite2,
+  .imgactivite3,
+  .imgactivite4,
+  .imgactivite5,
+  .imgactivite6 {
+    height: 200px;
+    width: 100%;
+  }
+
+  .Footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .TailleBlocFooter3 {
+    margin-right: 0px;
+  }
+  .TailleBlocFooter1 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-   }
-    
-    
-    .LiensHébergementActivité
-    {
-        order: 1;
-        width: 100%;
-        margin-left: 0;
-    }
+  }
 
-    .LiensMenuNav
-    {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-left: 10px;
-    }
-    
-    .LienNavHébergement, .LienNavActivités
-    {
-        width: 50%;
-        border-bottom: 5px solid #f2f2f2;
-       
-    }
+  .LiensHébergementActivité {
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+  }
 
-    .LienNavActivités:hover, .LienNavHébergement:hover
-    {
-        border-top: none;
-        border-bottom: 5px solid #0065fc;
-    
-    }
+  .LiensMenuNav {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
 
-    .LienNavSinscrire
-    {
-        padding-left: 95px
-    }
+  .LienNavHébergement,
+  .LienNavActivités {
+    width: 50%;
+    border-bottom: 5px solid #f2f2f2;
+  }
 
-    .BarreRecherche
-    {   
-        width: 100%;
-        border-top: 1px solid #f2f2f2;
-        border-bottom: 1px solid #f2f2f2;
-        border: none;
-    }
-    .BarreRechercheIntégrale
-    {
-        width: auto;
-       
-        
-    }
+  .LienNavActivités:hover,
+  .LienNavHébergement:hover {
+    border-top: none;
+    border-bottom: 5px solid #0065fc;
+  }
 
-    .BoutonRechercher
-    {
-        width: 50px;
-        border-radius: 15px;
-    }
+  .LienNavSinscrire {
+    padding-left: 95px;
+  }
 
+  .BarreRecherche {
+    width: 100%;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border: none;
+  }
+  .BarreRechercheIntégrale {
+    width: auto;
+  }
 
-    .destop
-    {
-        display: block;
-    }
+  .BoutonRechercher {
+    width: 50px;
+    border-radius: 15px;
+  }
 
-    span
-    {
-        display: none;
-    }
+  .destop {
+    display: block;
+  }
 
-    .Filtres
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 0;
-        margin-bottom: 0;
-        margin-top: 20px;
-    }
+  span {
+    display: none;
+  }
 
-    #Filtres
-    {
-        flex-direction: column;
-    }
+  .Filtres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
 
-    .BlocEconomique
-    {
-        flex-direction: row;
+  #Filtres {
+    flex-direction: column;
+  }
 
-    }
-    .BlocRomantique
-    {
-        flex-direction: column;
-        margin-right: auto;
-    }
+  .BlocEconomique {
+    flex-direction: row;
+  }
+  .BlocRomantique {
+    flex-direction: column;
+    margin-right: auto;
+  }
 
-    .Info
-    {
-        padding-left: 20px;
-    }
+  .Info {
+    padding-left: 20px;
+  }
 
+  .BlocHébergement {
+    background-color: white;
+    margin-right: 0;
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+  }
+  .BlocPopulaire {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 30px;
+    margin-left: 20px;
+  }
 
-    
-    .BlocHébergement
-    {
-        background-color: white;
-        margin-right: 0;
-        margin-top: 0;
-        align-items: center;
-        width: 100%;
-       
-    }
-    .BlocPopulaire
-    {
-       display: flex;
-       width: 100%;
-       flex-direction: column;
-       align-items: center;
-       margin: 0 10px;
-       padding: 30px;
-       margin-left: 20px;
-    }
+  .TitreBlocPopulaire {
+    width: 100%;
+  }
 
-    .TitreBlocPopulaire
-    {
-        width: 100%;
-    }
-   
-    .titreHébergement
-    {
-        padding-left: 0;
-        width: 100%;
-    }
+  .titreHébergement {
+    padding-left: 0;
+    width: 100%;
+  }
 
-    .BlocHébergement1, .BlocHébergement2
-    {
-        flex-direction: column;
-        align-items: center;
-    }
+  .BlocHébergement1,
+  .BlocHébergement2 {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .ImgHébergement1, .ImgHébergement2, .ImgHébergement3, .ImgHébergement4, .ImgHébergement5, .ImgHébergement6
-    {
-        width: 100%;
-        height: 160px;
-    }
-    .CubeHébergement
-    {
-        width: 100%;
-    }
+  .ImgHébergement1,
+  .ImgHébergement2,
+  .ImgHébergement3,
+  .ImgHébergement4,
+  .ImgHébergement5,
+  .ImgHébergement6 {
+    width: 100%;
+    height: 160px;
+  }
+  .CubeHébergement {
+    width: 100%;
+  }
 
-    .tabpopulaire
-    {
-        width: 100%;
-        flex-direction: column;
-       
-    }
-    .CubePopulaire, .CubePopulaire1
-    {
-        width: 100%;
-        flex-direction: row;
-    }
+  .tabpopulaire {
+    width: 100%;
+    flex-direction: column;
+  }
+  .CubePopulaire,
+  .CubePopulaire1 {
+    width: 100%;
+    flex-direction: row;
+  }
 
-    .ImgPopulaire1, .ImgPopulaire2, .ImgPopulaire3
-    {
-        width: 100%;
-        height: 160px;
-        border-radius: 15px 0 0 15px;
-    }
+  .ImgPopulaire1,
+  .ImgPopulaire2,
+  .ImgPopulaire3 {
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
 
-    .CubeDétailPopulaire
-    {
-        width: 100%;
-    }
+  .CubeDétailPopulaire {
+    width: 100%;
+  }
 
-     .tab2
-    {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0;
-        margin-right: 0;
-    }
-    .tab1
-    {
-        
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-    }
+  .tab2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .tab1 {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
 
-    .activites
-    {
-        width: 100%;
-        margin: 0;
-        
-       
-    }
-   
-    .bloc_activites1, .bloc_activites2
-    {
-       flex-direction: column;
-       align-items: center;
-    }
+  .activites {
+    width: 100%;
+    margin: 0;
+  }
 
-    .bloc_activites1
-    {
-        margin-right: 0;
-        
-    }
+  .bloc_activites1,
+  .bloc_activites2 {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    
-    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6
-    {
-      height: 160px;
-      width: 100%;
-    }
+  .bloc_activites1 {
+    margin-right: 0;
+  }
 
-    
-   
+  .imgactivite1,
+  .imgactivite2,
+  .imgactivite3,
+  .imgactivite4,
+  .imgactivite5,
+  .imgactivite6 {
+    height: 160px;
+    width: 100%;
+  }
 
-    .bloc_activites2
-    {
-        
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .bloc_activites2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .bloc_activites
-    {
-        width: 100%;
-        margin-left: 0;
-       
-      
-    }
+  .bloc_activites {
+    width: 100%;
+    margin-left: 0;
+  }
 
-    .cubeactivites
-    {
-        width: 100%;
-        height: auto;   
-    }
+  .cubeactivites {
+    width: 100%;
+    height: auto;
+  }
 
-    .cubeactivites2356
-    {
-        width: 100%;
-    }
+  .cubeactivites2356 {
+    width: 100%;
+  }
 
-   
+  .Footer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+  }
 
-
-    .Footer
-    {
-        width: 100%;
-        padding: 20px;
-        margin-top: 0;
-    }
-   
-    .ResponsiveMobile
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-   
-   /* body
-    {
-        margin:  auto;
-    }*/
-   
+  .ResponsiveMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
-
-  
-     
-         
-     
- 
-
-
-    
-
-
-
-
